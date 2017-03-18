@@ -1,0 +1,1 @@
+# react-native-folder-structure
