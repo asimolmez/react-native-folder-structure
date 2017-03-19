@@ -3,11 +3,6 @@
 Contains application source code
 
 
-# docs
-
-Contains documents of specified to application. We can control these rules when writing code.
-
-
 ## app/components
 
 Contains stateless, lean components. We can use anywhere without big updates. When writing code we do not forget KISS.
