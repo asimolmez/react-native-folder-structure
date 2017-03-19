@@ -37,22 +37,22 @@ class SignInContainer extends Component {
     }
 
     forgetPassword(email) {
-
+        this.props.actions.forgetPassword(email, password);
     }
-    
+
     signIn(email, password) {
         this.props.actions.signIn(email, password);
     }
 
     render() {
         return (
-            <SignIn signIn={this.signIn.bind(this)} forgetPassword={this.forgetPassword.bind(this)}/>
+            <SignIn signIn={this.signIn.bind(this)} forgetPassword={this.forgetPassword.bind(this)} />
         )
     }
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  ...bindActionCreators(actions, dispatch)
+    ...bindActionCreators(actions, dispatch)
 })
 
 export default SignInContainer

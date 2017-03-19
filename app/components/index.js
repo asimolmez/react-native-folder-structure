@@ -1,6 +1,2 @@
-import Button from "./Button";
-import View from "./View";
-
-
-export default Button;
-export default View;
+export {Button} from "./Button";
+export {View} from "./View";
