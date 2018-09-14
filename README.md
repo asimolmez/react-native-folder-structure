@@ -3,6 +3,10 @@
 Contains application source code
 
 
+## app/__test__
+
+Contains generic test files. We should write test for components, services etc. inside of related folder.
+
 ## app/components
 
 Contains stateless, lean components. We can use anywhere without big updates. When writing code we do not forget KISS.
