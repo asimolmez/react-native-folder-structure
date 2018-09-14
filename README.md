@@ -3,7 +3,7 @@
 Contains application source code
 
 
-## app/ __ test/ __
+## app/ __ test __
 
 Contains generic test files. We should write test for components, services etc. inside of related folder.
 
